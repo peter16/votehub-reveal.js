@@ -40,7 +40,7 @@ votehub('SET_YOUR_API_KEY');
 
 2. Set your own API key which you find [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
 
-3. Open a 'My surveys' tab in Votehub. There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
+3. Open a 'My surveys' tab in [Votehub](http://www.votehub.net/en/surveys/). There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
 
 4. Add a new section to your index.html (instead of xxx write your ID of segment.):
 
