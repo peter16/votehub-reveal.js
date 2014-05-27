@@ -71,7 +71,9 @@ Browser support
 -----------
 The votehub.js is fully supported in these browsers:
 1. Chrome
+
 2. Firefox
+
 3. Opera
 
 **Please use the latest versions of these browsers.**
