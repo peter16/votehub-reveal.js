@@ -26,7 +26,7 @@ Installation
 -----------
 
 1. Open index.html and add to the HEAD this code:
-
+4
 ```html
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.js"></script>
