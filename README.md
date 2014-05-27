@@ -44,29 +44,34 @@ votehub('YOUR_API_KEY');
 
 4. Add a new section to your index.html:
  if you want to display a questions:
- ```
+ ```html
  <section id="question-xxx">
  </section>
- ```
  if you want to display a stats:
- ak chceme zobraziť štatistiky prieskumu:
- ```
+ ```html
  <section id="stats-xxx">
  </section>
- ```
  if you want to display a correct answers (if you create a quiz question):
- ak chceme zobraziť odpovede prieskumu:
- ```
+ ```html
  <section id="answer-xxx">
  </section>
  ```
+ Instead of xxx write your ID of segment.
 
-Príklad, ak chceme zobraziť jednotlivé otázky zo segmentu 636, tak pridáme tento kód:
-\begin{verbatim}
-<section id="questions-636">
+5. Open index.html in a browser to view it.
+
+**Example:**
+If my ID segment is 123 and I want to display a questions in presentation, then I´ll add a this new section to my index.html:
+```html
+<section id="questions-123">
 </section>
-\end{verbatim}
-%toto dať do prirucky
+```
 
-Installation
+Browser support
 -----------
+The votehub.js is fully supported in these browsers:
+1. Chrome
+2. Firefox
+3. Opera
+
+**Please use the latest versions of these browsers.**
