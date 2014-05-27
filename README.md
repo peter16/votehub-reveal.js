@@ -1,4 +1,4 @@
-votehub.js
+votehub-reveal.js
 ==========
 
 This is a JavaScript library for HTML framework [reveal.js](https://github.com/hakimel/reveal.js). It allows easily insert your surveys from [Votehub](http://www.votehub.net/en) to the presentations.
