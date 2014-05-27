@@ -48,11 +48,13 @@ votehub('YOUR_API_KEY');
  ```html
  <section id="question-xxx">
  </section>
+ ```
  
  if you want to display a stats:
  ```html
  <section id="stats-xxx">
  </section>
+ ```
  
  if you want to display a correct answers (if you create a quiz question):
  ```html
