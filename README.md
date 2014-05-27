@@ -3,13 +3,12 @@ votehub.js
 
 This is a JavaScript library for HTML framework reveal.js. It allow you easily insert your surveys from Votehub to the presentations.
 
-What is reveal.js
---------------
+**What is reveal.js**
+
 It's a framework for easily creating beautiful presentations using HTML. https://github.com/hakimel/reveal.js
 
-Basic setup of reveal.js
---------------
-  
+**Basic setup of reveal.js**
+
 The core of reveal.js is very easy to install. You'll simply need to download a copy of this repository and open the index.html file directly in your browser.
 
 1.  Download the latest version of reveal.js from https://github.com/hakimel/reveal.js/releases
