@@ -29,6 +29,7 @@ Installation
 
 1. Open index.html and add to the HEAD this code:
 
+```
 <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
 <script src="http://www.votehub.net/votehub.js"></script>
 <link rel="stylesheet" href="http://www.votehub.net/votehub.css">
@@ -37,3 +38,4 @@ $(function(){
 votehub('<API_key>');
 });
 </script>
+```
