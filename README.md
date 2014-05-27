@@ -6,7 +6,7 @@ This is a JavaScript library for HTML framework reveal.js. It allow you easily i
 **More reading:**
 
   * [Installation](https://github.com/peter16/votehub.js#installation): Step-by-step instructions for getting votehub.js running on your computer.
-  * [Browser Support](http://example.com): Explanation of browser support.
+  * [Browser Support](https://github.com/peter16/votehub.js#browser-support): Explanation of browser support.
 
 **What is reveal.js**
 
@@ -38,15 +38,28 @@ votehub('YOUR_API_KEY');
 </script>
 ```
 
-2. [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
+2. Set your own API key which you find [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
 
-\subsection{Návod na zobrazenie údajov z prieskumu}
-Ak chceme v prezentácii zobraziť konkrétny segment z nášho prieskum, tak musíme do html súboru pridať sekciu, ktorú je potrebné označiť identifikátorom a to nasledovnými spôsobmi:
-\begin{itemize}
-\item ak chceme zobraziť prieskum, tak zadáme \texttt{id="questions-<ID\_SEGMENTU>"}
-\item ak chceme zobraziť štatistiky prieskumu, tak zadáme \texttt{id="stats-<ID\_SEGMENTU>"}
-\item ak chceme zobraziť správne odpovede otázok, tak zadáme \texttt{id="answers-<ID\_SEGMENTU>"}
-\end{itemize}
+3. Open a 'My surveys' tab in Votehub. There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
+
+4. Add a new section to your index.html:
+ if you want to display a questions:
+ ```
+ <section id="question-xxx">
+ </section>
+ ```
+ if you want to display a stats:
+ ak chceme zobraziť štatistiky prieskumu:
+ ```
+ <section id="stats-xxx">
+ </section>
+ ```
+ if you want to display a correct answers (if you create a quiz question):
+ ak chceme zobraziť odpovede prieskumu:
+ ```
+ <section id="answer-xxx">
+ </section>
+ ```
 
 Príklad, ak chceme zobraziť jednotlivé otázky zo segmentu 636, tak pridáme tento kód:
 \begin{verbatim}
@@ -54,3 +67,6 @@ Príklad, ak chceme zobraziť jednotlivé otázky zo segmentu 636, tak pridáme 
 </section>
 \end{verbatim}
 %toto dať do prirucky
+
+Installation
+-----------
