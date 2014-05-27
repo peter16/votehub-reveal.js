@@ -5,9 +5,13 @@ This is a JavaScript library for HTML framework reveal.js. It allow you easily i
 
 **More reading:**
 
+[Installation](http://example.com)
 Installation: Step-by-step instructions for getting votehub.js running on your computer.
+
 Changelog: Up-to-date version history.
+
 Examples: Some presentations created with surveys.
+
 Browser Support: Explanation of browser support.
 
 **What is reveal.js**
