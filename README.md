@@ -5,14 +5,10 @@ This is a JavaScript library for HTML framework reveal.js. It allow you easily i
 
 **More reading:**
 
-[Installation](http://example.com)
-Installation: Step-by-step instructions for getting votehub.js running on your computer.
-
-Changelog: Up-to-date version history.
-
-Examples: Some presentations created with surveys.
-
-Browser Support: Explanation of browser support.
+  * [Installation](http://example.com): Step-by-step instructions for getting votehub.js running on your computer.
+  * [Changelog](http://example.com): Up-to-date version history.
+  * [Browser Support](http://example.com): Explanation of browser support.
+  * [Examples](http://example.com): Some presentations created with surveys.
 
 **What is reveal.js**
 
@@ -27,6 +23,9 @@ The core of reveal.js is very easy to install. You'll simply need to download a 
 2.  Unzip and replace the example contents in index.html with your own
 
 3.  Open index.html in a browser to view it
+
+Installation
+-----------
 
 <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
 <script src="http://www.votehub.net/votehub.js"></script>
