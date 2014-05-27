@@ -33,7 +33,7 @@ Installation
 <link rel="stylesheet" href="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.css">
 <script>
 $(function(){
-votehub('YOUR_API_KEY');
+votehub('SET_YOUR_API_KEY');
 });
 </script>
 ```
