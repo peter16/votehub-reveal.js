@@ -5,14 +5,12 @@ This is a JavaScript library for HTML framework reveal.js. It allow you easily i
 
 **More reading:**
 
-  * [Installation](http://example.com): Step-by-step instructions for getting votehub.js running on your computer.
-  * [Changelog](http://example.com): Up-to-date version history.
+  * [Installation](https://github.com/peter16/votehub.js#installation): Step-by-step instructions for getting votehub.js running on your computer.
   * [Browser Support](http://example.com): Explanation of browser support.
-  * [Examples](http://example.com): Some presentations created with surveys.
 
 **What is reveal.js**
 
-It's a framework for easily creating beautiful presentations using HTML. https://github.com/hakimel/reveal.js
+It's a framework for easily creating beautiful presentations using HTML. [More info here.](https://github.com/hakimel/reveal.js)
 
 **Basic setup of reveal.js**
 
@@ -39,3 +37,20 @@ votehub('YOUR_API_KEY');
 });
 </script>
 ```
+
+2. [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
+
+\subsection{Návod na zobrazenie údajov z prieskumu}
+Ak chceme v prezentácii zobraziť konkrétny segment z nášho prieskum, tak musíme do html súboru pridať sekciu, ktorú je potrebné označiť identifikátorom a to nasledovnými spôsobmi:
+\begin{itemize}
+\item ak chceme zobraziť prieskum, tak zadáme \texttt{id="questions-<ID\_SEGMENTU>"}
+\item ak chceme zobraziť štatistiky prieskumu, tak zadáme \texttt{id="stats-<ID\_SEGMENTU>"}
+\item ak chceme zobraziť správne odpovede otázok, tak zadáme \texttt{id="answers-<ID\_SEGMENTU>"}
+\end{itemize}
+
+Príklad, ak chceme zobraziť jednotlivé otázky zo segmentu 636, tak pridáme tento kód:
+\begin{verbatim}
+<section id="questions-636">
+</section>
+\end{verbatim}
+%toto dať do prirucky
