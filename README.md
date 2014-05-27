@@ -27,16 +27,16 @@ Installation
 
 1. Open index.html and add to the HEAD this code:
 
-```html
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.js"></script>
-<link rel="stylesheet" href="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.css">
-<script>
-$(function(){
-votehub('SET_YOUR_API_KEY');
-});
-</script>
-```
+ ```html
+ <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+ <script src="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.js"></script>
+ <link rel="stylesheet" href="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.css">
+ <script>
+ $(function(){
+ votehub('SET_YOUR_API_KEY');
+ });
+ </script>
+ ```
 Set your own API key which you find [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
 
 2. Open a 'My surveys' tab in [Votehub](http://www.votehub.net/en/surveys/). There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
