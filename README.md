@@ -46,7 +46,7 @@ votehub('YOUR_API_KEY');
 
  if you want to display a questions:
  ```html
- <section id="question-xxx">
+ <section id="questions-xxx">
  </section>
  ```
  
@@ -58,7 +58,7 @@ votehub('YOUR_API_KEY');
  
  if you want to display a correct answers (if you create a quiz question):
  ```html
- <section id="answer-xxx">
+ <section id="answers-xxx">
  </section>
  ```
 
