@@ -42,21 +42,23 @@ votehub('YOUR_API_KEY');
 
 3. Open a 'My surveys' tab in Votehub. There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
 
-4. Add a new section to your index.html:
+4. Add a new section to your index.html (instead of xxx write your ID of segment.):
+
  if you want to display a questions:
  ```html
  <section id="question-xxx">
  </section>
+ 
  if you want to display a stats:
  ```html
  <section id="stats-xxx">
  </section>
+ 
  if you want to display a correct answers (if you create a quiz question):
  ```html
  <section id="answer-xxx">
  </section>
  ```
- Instead of xxx write your ID of segment.
 
 5. Open index.html in a browser to view it.
 
