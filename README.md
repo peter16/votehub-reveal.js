@@ -1,7 +1,7 @@
 votehub.js
 ==========
 
-This is a JavaScript library for HTML framework reveal.js. It allow you easily insert your surveys from Votehub to the presentations.
+This is a JavaScript library for HTML framework reveal.js. It allow you easily insert your surveys from [Votehub](http://www.votehub.net/en) to the presentations.
 
 **More reading:**
 
@@ -27,11 +27,13 @@ The core of reveal.js is very easy to install. You'll simply need to download a 
 Installation
 -----------
 
-<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
-<script src="http://www.votehub.net/votehub.js"></script>
-<link rel="stylesheet" href="http://www.votehub.net/votehub.css">
-<script>
-$(function(){
-votehub('<API_key>');
-});
-</script>
+1. Open index.html and add to the HEAD this code:
+
+  <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script src="http://www.votehub.net/votehub.js"></script>
+  <link rel="stylesheet" href="http://www.votehub.net/votehub.css">
+  <script>
+  $(function(){
+  votehub('<API_key>');
+  });
+  </script>
