@@ -30,12 +30,12 @@ Installation
 1. Open index.html and add to the HEAD this code:
 
 ```html
-<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
-<script src="http://www.votehub.net/votehub.js"></script>
-<link rel="stylesheet" href="http://www.votehub.net/votehub.css">
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.js"></script>
+<link rel="stylesheet" href="http://www.votehub.net/static/contrib/reveal/votehub-reveal-1.0.0.min.css">
 <script>
 $(function(){
-votehub('<API_key>');
+votehub('YOUR_API_KEY');
 });
 </script>
 ```
