@@ -37,12 +37,11 @@ votehub('SET_YOUR_API_KEY');
 });
 </script>
 ```
+Set your own API key which you find [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
 
-2. Set your own API key which you find [in your profile.](http://www.votehub.net/en/accounts/api-keys/)
+2. Open a 'My surveys' tab in [Votehub](http://www.votehub.net/en/surveys/). There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
 
-3. Open a 'My surveys' tab in [Votehub](http://www.votehub.net/en/surveys/). There are all your surveys. If you don´t have create one. Choose one survey and click on 'Share'. There is a URL address field: http://www.votehub.net/xxx/ (instead of xxx there is a ID of segment). Remember this ID.
-
-4. Add a new section to your index.html (instead of xxx write your ID of segment.):
+3. Add a new section to your index.html (instead of xxx write your ID of segment.):
 
  if you want to display a questions:
  ```html
@@ -62,7 +61,7 @@ votehub('SET_YOUR_API_KEY');
  </section>
  ```
 
-5. Open index.html in a browser to view it.
+4. Open index.html in a browser to view it.
 
 **Example:**
 If my ID segment is 123 and I want to display a questions in presentation, then I´ll add a this new section to my index.html:
