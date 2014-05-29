@@ -72,7 +72,7 @@ If my ID segment is 123 and I want to display a questions in presentation, then 
 
 Browser support
 -----------
-The votehub.js is fully supported in these browsers:
+The votehub-reveal.js is fully supported in these browsers:
 
 1. Google Chrome
 
